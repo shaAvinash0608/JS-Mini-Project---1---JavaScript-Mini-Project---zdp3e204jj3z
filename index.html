@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div style="position: relative;">
+        <p id="scoreEl" >
+            <span>Score:</span><span>0</span>
+        </p>
+
+        <div id="modelEl">
+            <div id="modelElDiv" >
+                <h1 id="bigScoreEl" >0</h1>
+                <p id="modelElP" >Points</p>
+                <div>
+                    <button id="startGameBtn">
+                        Start Game
+                    </button>
+                </div>
+            </div>
+        </div>
+        <canvas></canvas>
+        <h1 class="title" >
+            <span>Space Invaders</span>
+        </h1>
+        <p class="instruction" style="color: white;">Use the <code>A</code>key to move player <code>Left</code>and<code>D</code>key to move player
+            <code>Right</code>,To shoot the invaders press<code>Spacebar</code></p>
+        <script src="./App.js"></script>
+    </div>
+</body>
+
+</html>
